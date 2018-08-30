@@ -54,7 +54,7 @@ body {
     .block {
       height: 50px;
       width: 100px;
-      background: url("/images/block.png") no-repeat;
+      background: url("../images/block.png") no-repeat;
       position: relative;
       .block-area {
         position: absolute;
@@ -152,7 +152,7 @@ body {
       left: 0;
       height: 20px;
       width: 50px;
-      background: url("/images/block-before.png");
+      background: url("../images/block-before.png");
     }
 
     &:after {
@@ -163,7 +163,7 @@ body {
       left: 0;
       height: 20px;
       width: 50px;
-      background: url("/images/block-after.png");
+      background: url("../images/block-after.png");
     }
   }
   .color-picker{
